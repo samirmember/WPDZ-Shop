@@ -1,0 +1,82 @@
+.buy {
+	background-image:url(wp-content/plugins/wpdzshop/images/buy.png);
+	width: 174px;
+	height: 54px;
+	float: left;
+}
+.buy:hover {
+	background-image:url(wp-content/plugins/wpdzshop/images/buy-hover.png);
+}
+.thumb_product {
+	float: left;
+}
+.entry-meta {
+	margin-left: 10px;
+}
+.entry-content, .entry-header {
+	width: 100%!important;
+	margin-top: -55px!important;
+}
+.entry-content .wpdzshop_table {
+	border-collapse: collapse;
+	border: 1px solid grey;
+	width: auto;
+}
+thread {
+	display: table-header-group;
+	vertical-align: middle;
+}
+.wpdzshop_header {
+	background-color: grey;
+	color: white;
+}
+.wpdzshop_header th {
+	color: white;
+}
+tr {
+	border: 1px solid #ccc;
+}
+.button-primary {
+    background: url("../../../../wp-admin/images/button-grad.png") repeat-x scroll left top #21759B;
+    border-color: #298CBA;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    min-width: 80px;
+    text-align: center;
+    -moz-box-sizing: content-box;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 12px !important;
+    line-height: 13px;
+    padding: 3px 8px;
+    text-decoration: none;
+}
+.button-primary:hover  {
+	text-decoration: underline;
+}
+.product-price {
+	text-align: right;
+	padding-right: 5px;
+}
+.message {
+	/*background-color: #f8fbc1;
+	border: 1px solid #363636;
+	color: #da1515;*/
+	color: red;
+	padding: 3px;
+	padding-left: 9px;
+	height: auto;
+	width: auto;
+}
+.wpdzshop-product-quantite td input[type="submit"] {
+	background: url("../images/update.png");
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 19px;
+}
+.mandatory {
+	color: red;
+}
